@@ -1,0 +1,19 @@
+#current_location {
+    margin: 10px 0 0 30px;
+}
+
+#day {
+    font-size: 40px;
+}
+
+#temperature {
+    font-size: 70px;
+    font-weight: 300;
+    float: left;
+}
+
+#month {
+    text-align: left;
+    padding: 0 0 0 100px;
+    font-size: 24px;
+}

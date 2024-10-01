@@ -1,0 +1,18 @@
+#page {
+    /*width: 1000px;
+    height: 1100px;*/
+    width: 768px;
+    height: 1024px;
+    margin: auto;
+    background-color: #2e6bab;
+    position: relative;
+}
+
+#navbar {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

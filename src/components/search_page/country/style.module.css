@@ -1,0 +1,29 @@
+#section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#section hgroup {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#section hgroup * {
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#section hgroup div h1 {
+    margin: 30px 0;
+}
+
+#map_icon {
+    height: 250px;
+    width: 90%;
+    object-fit: contain;
+}

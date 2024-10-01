@@ -1,0 +1,124 @@
+/* In order to enhance the visual appeal and functionality of the app, CSS styling was implemented to appropriately design and position specific HTML components. */
+
+#Title {
+    text-align: center;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-weight: 40px;
+}
+
+#Tourist_Attractions {
+    margin: 0px;
+}
+
+#Attractions {
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+    font-weight: 300px;
+}
+
+.Attraction_First_Row { /* By implementing CSS styling, it was possible to position words from two different sentences on a single row, improving the visual appeal and functionality of the app. */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Attraction_Name {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.Attraction_Opening_Time {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.Attraction_Second_Row { /* By implementing CSS styling, it was possible to position words from two different sentences on a single row, improving the visual appeal and functionality of the app. */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Attraction_Info {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: small;
+}
+
+.Attraction_Price {
+    text-align: right;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+#Tourist_Events {
+    margin-top: 10px;
+}
+
+#Events {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    font-weight: 300px;
+}
+
+.Event_First_Row { /* By implementing CSS styling, it was possible to position words from two different sentences on a single row, improving the visual appeal and functionality of the app. */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Event_Name {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.Event_Opening_Time {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.Event_Second_Row { /* By implementing CSS styling, it was possible to position words from two different sentences on a single row, improving the visual appeal and functionality of the app. */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Event_Info {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: small;
+}
+
+.Event_Price {
+    text-align: right;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.divider {
+    margin: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container {
+    max-height: 310px;
+    overflow-y: scroll;
+}

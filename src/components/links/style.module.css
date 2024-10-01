@@ -1,0 +1,27 @@
+#links {
+    position: sticky;
+    top: 50px;
+    left: 100px;
+    float: left;
+}
+
+#links h3 {
+    font-size: 30px;
+    margin: 5px 0 0;
+}
+
+#links h4 {
+    margin: 0 0 5px;
+    font-weight: normal;
+}
+
+#links a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px 0;
+}
+
+#links a:hover {
+    font-style: italic;
+}

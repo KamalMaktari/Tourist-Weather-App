@@ -1,0 +1,45 @@
+#title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 150px;
+  align-items: center;
+}
+
+img#country {
+  height: 100%;
+  max-height: 200px;
+  width: 100%;
+  object-fit: fill;
+}
+
+#grid_places {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 15px;
+
+}
+
+#grid_places h1 {
+  font-size: 20px;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+#grid_places img#icon {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
+#weather-icon {
+  max-width: 100%;
+}

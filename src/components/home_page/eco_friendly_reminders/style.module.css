@@ -1,0 +1,48 @@
+/* In order to enhance the visual appeal and functionality of the app, 
+CSS styling was implemented to appropriately design 
+and position specific HTML components. */
+
+/* This centers the title */
+#title {
+    text-align: center;
+    font-size: 21px;
+}
+
+/* This centers the table */
+#eco-friendly-reminders table * {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* This gives the first column a width of 15% of the whole table 
+and makes the text bold */
+#eco-friendly-reminders td:first-child {
+    width: 15%;
+    font-weight: bold;
+}
+
+/* This gives the second column a width of 58% of the whole table */
+#eco-friendly-reminders td:nth-child(2) {
+    padding-left: 3px;
+    text-align: left;
+}
+
+/* This gives the third column a width of 27% of the whole table */
+#eco-friendly-reminders td:last-child {
+    width: 27%;
+    min-width: 110px;
+}
+
+/* This gives the padding of 10px for the top of each column */
+#eco-friendly-reminders td {
+    padding: 10px 0;
+}
+
+/* This places all the image icons line by line and it is aligned 
+with the information text with a margin of 5px to the left */
+#eco-friendly-reminders td img {
+    display: inline-block;
+    height: 26px;
+    margin: 0 5px;
+    padding: 5px 0 0 0;
+}
