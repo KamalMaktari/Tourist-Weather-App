@@ -1,6 +1,6 @@
 # Tourist Weather App 
 
-The Tourist Weather App provides travelers with real-time weather information and forecasts to help them plan their trips effectively, ensuring they make the most of their travel experience. 
+The Tourist Weather App provides tourists with real-time weather information and forecasts, along with details on local attractions and events, helping them plan their trips effectively and enhance their travel experience. 
 
 ## Local Deployment 
 
